@@ -1,0 +1,17 @@
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width , initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>FootbalApp</title>
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Candal|Lora&display=swap" rel="stylesheet"> 
+
+	<!-- Custom styles & js -->
+	
+	<script type="text/javascript" src="src/assets/js/scripts.js"></script>
+	
+</head>
+<header [class.hidden] = "hideHeader" [style.height.px]="isHomeRoute?homeHeader:otherHeader" >
+</header>
+<router-outlet></router-outlet>
